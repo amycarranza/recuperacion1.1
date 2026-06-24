@@ -1,0 +1,8 @@
+let alumnos = [
+ {nombre:"Juan", nota:5},
+ {nombre:"Maria", nota:8}
+];
+
+alumnos.forEach(alumno => {
+ console.log(alumno.nombree + alumno.nota);
+});
