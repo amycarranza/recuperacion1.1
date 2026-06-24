@@ -1,0 +1,7 @@
+fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+.then(respuesta => respuesta.json())
+.then(pokemon => {
+  console.log(pokemon.nam);
+  console.log(pokemon.weigth);
+})
+.catch(error => console.log(error));
