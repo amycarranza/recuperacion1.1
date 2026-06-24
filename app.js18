@@ -1,0 +1,6 @@
+let contactos = [
+ {nombre:"Ana", telefono:"123"},
+ {nombre:"Luis", telefono:"456"}
+];
+
+console.log(contactos[5].telefono);
