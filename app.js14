@@ -1,0 +1,6 @@
+
+fetch("https://jsonplaceholder.typicode.com/posts/1")
+.then(respuesta => respuesta.json())
+.then(datos => {
+ console.log(datos.titulo);
+});
